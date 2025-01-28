@@ -33,9 +33,9 @@
       };
     </script>
   </head>
-  <body class="max-w-screen-xl mx-auto px-4 lg:px-16 md:px-16 font-manrope">
+  <body class="font-manrope">
     <header
-      class="my-8 md:my-12 grid grid-cols-1 md:grid-cols-2 items-center gap-10 md:gap-3"
+      class="max-w-screen-xl mx-auto px-4 lg:px-16 md:px-16 my-8 md:my-12 grid grid-cols-1 md:grid-cols-2 items-center gap-10 md:gap-3"
     >
       <!-- ///// Hero Section Started ///// -->
       <!-- Hero Left Side -->
@@ -76,7 +76,7 @@
       <!-- ///// Hero Section End ///// -->
     </header>
 
-    <main>
+    <main class="max-w-screen-xl mx-auto px-4 lg:px-16 md:px-16">
       <!-- ///// featured section Start ///// -->
       <section>
         <!-- headings -->
@@ -356,5 +356,25 @@
       </section>
       <!-- ///// News Section End ///// -->
     </main>
+
+    <footer class="bg-gradient-to-r from-orange-50 to-red-50 mt-20 py-20">
+      <div class="max-w-screen-xl mx-auto px-4 lg:px-16 md:px-16">
+        <!-- top part -->
+        <div class="text-center md:flex items-center justify-between">
+          <div>
+            <img class="mx-auto md:mx-0" src="./images/cup.png" alt="" />
+          </div>
+          <div class="md:flex gap-6 items-center">
+            <p class="my-6 md:my-0">Ready to get strated?</p>
+            <button
+              class="py-4 px-8 bg-gradient-to-r from-[#FF8938] to-[#FF0000] text-white rounded-xl font-bold"
+            >
+              Explore More
+              <i class="fa-solid fa-arrow-right -rotate-45 ml-1"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
